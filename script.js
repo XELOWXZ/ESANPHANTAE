@@ -17,6 +17,10 @@ async function loadMenu() {
         description = "Tender, juicy served with black pepper sauce";
       } else if (description === "ปลาดิบคัดพิเศษ สดใหม่ทุกวัน") {
         description = "Special selected fresh fish, fresh daily";
+      } else if (description === "คอหมูย่างหอมกรุ่น เสิร์ฟพร้อมน้ำจิ้มแจ่วรสเด็ด") {
+        description = "Grilled pork neck with aromatic flavor, served with spicy Jaew sauce";
+      } else if (description === "หมูสามชั้นทอดน้ำปลา กรอบนอกนุ่มใน กลิ่นหอมชวนหิว เคลือบด้วยรสเค็มกลมกล่อมของน้ำปลาแท้ๆ ทุกคำเต็มไปด้วยความกรอบฉ่ำ") {
+        description = "Crispy pork belly fried with fish sauce, crispy outside and tender inside, coated with savory real fish sauce flavor in every bite";
       }
     }
     
