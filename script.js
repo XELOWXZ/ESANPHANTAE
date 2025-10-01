@@ -47,9 +47,12 @@ async function loadMenu() {
       else if (categoryName === "ยำ") categoryName = "Spicy Salads";
       else if (categoryName === "ลาบ / น้ำตก") categoryName = "Larb / Nam Tok";
       else if (categoryName === "ต้มยำ / ต้มแซ่บ / แกง") categoryName = "Tom Yum / Tom Sab / Curries";
+      else if (categoryName === "อาหารจานเดี่ยว") categoryName = "single dish meal";
       else if (categoryName === "ผัดเผ็ด / ผัดฉ่า / ผัดกระเพรา / ผัดพริกแกง") categoryName = "Stir-fried Dishes";
       else if (categoryName === "เมนูปลา") categoryName = "Fish Menu";
       else if (categoryName === "เมนูทอด") categoryName = "Fried Menu";
+      else if (categoryName === "ย่าง") categoryName = "grill Menu";
+      else if (categoryName === "เพิ่มเติม") categoryName = "More menu";
       else if (categoryName === "เครื่องดื่ม") categoryName = "Beverages";
     }
 
